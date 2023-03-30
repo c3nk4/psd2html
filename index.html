@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Css (Bootstrap CDN, Style) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+
+  <title>psd2html</title>
+</head>
+
+<body>
+
+  <!-- Header Section Start -->
+
+  <header class="header">
+    <section class="menu bg-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Service</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contact</a>
+                    </li>
+                  </ul>
+                  <form class="search shadow">
+                    <input type="search" name="search" id="search" class="text-white" placeholder="Search...">
+                    <button type="submit"><i class="bi bi-search"></i></button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <!-- Header Section End -->
+
+
+  <!-- Hero Section Start -->
+
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h1>First I wanted to be a veterinarian</h1>
+          <p class="main-text">Lorem Ipsum available but the majority have
+            suffered alteration in some form, by injected
+            humour randomised words.</p>
+          <a href="#"><button class="btn-left">Contact Us</button></a>
+          <a href="#"><button class="btn-right">Our Service</button></a>
+        </div>
+        <div class="col-md-6">
+          <img src="img/hero-image.png" class="img-fluid" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero Section End -->
+
+
+  <!-- About Section Start -->
+
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 my-auto">
+          <h2>As a veterinarian and lover of animals</h2>
+          <p class="main-text">Lorem Ipsum available but the majority have
+            suffered alteration in some form, by injected
+            humour randomised words.</p>
+          <a href="#"><button class="main-button">Our Service</button></a>
+        </div>
+        <div class="col-md-6">
+          <div class="about-img kararti">
+            <img src="img/about-image.jpg" alt="">
+            <!-- Video Pop-up Start -->
+            <div class="vpop about-img-btn" data-type="youtube" data-id="-rnx-I2HROg" data-autoplay='true'><i
+                class="bi bi-play-circle-fill"></i></div>
+            <div id="video-popup-overlay"></div>
+            <div id="video-popup-container">
+              <div id="video-popup-close" class="fade"><i class="bi bi-x-lg"></i></div>
+              <div id="video-popup-iframe-container">
+                <iframe id="video-popup-iframe" src="" width="100%" height="100%" frameborder="0"></iframe>
+              </div>
+            </div>
+            <!-- Video Pop-up End -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section End -->
+
+
+  <!-- Services Section Start -->
+
+  <section class="services" id="services">
+    <div class="container">
+      <h2 class="section-heading mb-5">Title Here</h2>
+      <p class="main-text" style="margin-top: -35px; margin-bottom: 70px;">Lorem Ipsum available but the majority
+        have<br>
+        suffered alteration in some form.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/veterinarian.jpg" alt=""></div>
+          <h3>Veterinarian</h3>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/vaccination.jpg" alt=""></div>
+          <h3>Vaccination</h3>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/dental.jpg" alt=""></div>
+          <h3>Dental Care</h3>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section End -->
+
+
+  <!-- Promotion Section Start -->
+
+  <section class="promotion" id="promotion">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="pro-img kararti">
+            <img src="img/promotion-image.jpg" alt="">
+            <div class="vpop about-img-btn" data-type="youtube" data-id="-rnx-I2HROg" data-autoplay='true'><i
+                class="bi bi-play-circle-fill"></i></div>
+          </div>
+        </div>
+        <div class="col-md-6 my-auto">
+          <h2 style="font-size: 46px;">As a veterinarian and lover of animals</h2>
+          <p class="main-text">Lorem Ipsum available but the majority have
+            suffered alteration in some form, by injected
+            humour randomised words.</p>
+          <a href="#"><button class="main-button">Our Service</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Promotion Section End -->
+
+
+  <!-- Details Section Start -->
+
+  <section class="details" id="details">
+    <div class="container">
+      <h2 class="section-heading mb-5">Title Here</h2>
+      <p class="main-text" style="margin-top: -35px; margin-bottom: 70px;">Lorem Ipsum available but the majority
+        have<br>
+        suffered alteration in some form.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/dog-one.jpg" alt=""></div>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+          <button class="details-btn">Details</button>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/dog-two.jpg" alt=""></div>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+          <button class="details-btn">Details</button>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/dog-three.jpg" alt=""></div>
+          <p>Lorem Ipsum available but the majority have
+            suffered alteration in some form.</p>
+          <button class="details-btn">Details</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Details Section End -->
+
+
+  <!-- Team Section Start -->
+
+  <section class="team" id="team">
+    <div class="container">
+      <h2 class="section-heading mb-5">The vetcare team</h2>
+      <p class="main-text" style="margin-top: -35px; margin-bottom: 70px;">Lorem Ipsum available but the majority
+        have<br>
+        suffered alteration in some form.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/doc-one.jpg" alt=""></div>
+          <h3 class="fw-bold">Jennifer Mullen</h3>
+          <p>VETERINARY</p>
+          <div class="vet-icons">
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://wa.link/7c8awa" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/doc-two.jpg" alt=""></div>
+          <h3 class="fw-bold">Sheeren Collins</h3>
+          <p>ADMINISTRATION</p>
+          <div class="vet-icons">
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://wa.link/7c8awa" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="img-scale"><img src="img/doc-three.jpg" alt=""></div>
+          <h3 class="fw-bold">Jennifer Mullen</h3>
+          <p>VETERINARY</p>
+          <div class="vet-icons">
+            <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+            <a href="https://wa.link/7c8awa" target="_blank"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section End -->
+
+
+  <!-- Numbers Section Start -->
+
+  <section class="numbers" id="numbers">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/icon-heart.png" alt="">
+          <p>+34793</p>
+          <h3 class="fw-bold">Happy Clients</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="img/icon-depart.png" alt="">
+          <p>+45382</p>
+          <h3 class="fw-bold">Department</h3>
+        </div>
+        <div class="col-md-4">
+          <img src="img/icon-vacc.png" alt="">
+          <p>+54762</p>
+          <h3 class="fw-bold">Vaccination</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Numbers Section End -->
+
+
+  <!-- Blog Section Start -->
+
+  <section class="blog" id="blog">
+    <div class="container">
+      <h2 class="section-heading mb-5">Recent Posts</h2>
+      <p class="main-text" style="margin-top: -35px; margin-bottom: 70px;">Lorem Ipsum available but the majority
+        have<br>
+        suffered alteration in some form.</p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card text-start rounded-0">
+            <img src="img/blog-img-1.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold">As a veterinarian and
+                lover of animals</h5>
+              <p class="blog-color">FEBRUARY 09, 2023</p>
+              <p>Lorem Ipsum available, but the majo
+                rity have suffered alteration in somewords which look.</p>
+              <a class="text-decoration-none" href="">
+                <p class="blog-color mt-3 mb-0 fw-bold">Read More+</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-start rounded-0">
+            <img src="img/blog-img-2.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold">As a veterinarian and
+                lover of animals</h5>
+              <p class="blog-color">FEBRUARY 10, 2023</p>
+              <p>Lorem Ipsum available, but the majo
+                rity have suffered alteration in somewords which look.</p>
+              <a class="text-decoration-none" href="">
+                <p class="blog-color mt-3 mb-0 fw-bold">Read More+</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card text-start rounded-0">
+            <img src="img/blog-img-3.jpg" class="card-img-top" alt="">
+            <div class="card-body">
+              <h5 class="fw-bold">As a veterinarian and
+                lover of animals</h5>
+              <p class="blog-color">FEBRUARY 11, 2023</p>
+              <p>Lorem Ipsum available, but the majo
+                rity have suffered alteration in somewords which look.</p>
+              <a class="text-decoration-none" href="">
+                <p class="blog-color mt-3 mb-0 fw-bold">Read More+</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Section End -->
+
+
+  <!-- Footer Section Start -->
+
+  <footer class="foot" id="foot">
+    <section class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h4>About</h4>
+            <ul>
+              <li><a href="">History</a></li>
+              <li><a href="">Our Team</a></li>
+              <li><a href="">Brand Guidelines</a></li>
+              <li><a href="">Terms&Condition</a></li>
+              <li><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h4>Services</h4>
+            <ul>
+              <li><a href="">How to Order</a></li>
+              <li><a href="">Our Product</a></li>
+              <li><a href="">Order Status</a></li>
+              <li><a href="">Promo</a></li>
+              <li><a href="">Payment Method</a></li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-end">
+            <h4>Title Here</h4>
+            <p>Lorem Ipsum available, but the majority</p>
+            <form class="news">
+              <input type="email" name="email" id="email">
+              <button type="submit"><i class="bi bi-cursor-fill"></i></button>
+            </form>
+            <div class="vet-icons mt-4">
+              <a href="https://instagram.com" target="_blank"><i class="bi bi-instagram"></i></a>
+              <a href="https://facebook.com" target="_blank"><i class="bi bi-facebook"></i></a>
+              <a href="https://twitter.com" target="_blank"><i class="bi bi-twitter"></i></a>
+              <a href="https://wa.link/7c8awa" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <!-- Footer Section End -->
+
+
+  <!-- Whatsapp İcon Start -->
+
+  <a href="https://wa.link/4kfmph" class="float shadow-lg wa-right" target="_blank">
+    <i class="bi bi-whatsapp bis my-float"></i>
+  </a>
+
+  <!-- Whatsapp İcon End -->
+
+
+  <!-- Back to Top Button Start -->
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="bi bi-chevron-up"></i></button>
+  <!-- Back to Top Button End -->
+
+
+  <!-- JS (Bootstrap CDN, Custom) -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>
