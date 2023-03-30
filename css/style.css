@@ -550,13 +550,14 @@ ul {
     margin-top: 0;
     margin-left: 0;
   }
-
+ 
   .nav-link {
     margin-top: 15px;
     line-height: 35px;
   }
 
   #search {
+    display: none;
     padding: 8px 68px 8px 10px;
   }
 
