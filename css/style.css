@@ -556,7 +556,7 @@ ul {
     line-height: 35px;
   }
 
-  #search {
+  .search {
     display: none;
     padding: 8px 68px 8px 10px;
   }
@@ -642,7 +642,8 @@ ul {
     height: 110vh;
   }
 
-  #search {
+  .search {
+    display: none;
     padding: 8px 400px 8px 10px;
   }
 
