@@ -521,8 +521,8 @@ ul {
   transition: .4s;
 }
 
-.my-float i {
-  margin-top: 4px;
+.my-float {
+  margin: auto;
 }
 
 .wa-right:hover {
@@ -558,7 +558,6 @@ ul {
 
   .search {
     display: none;
-    padding: 8px 68px 8px 10px;
   }
 
   .search button {
@@ -644,7 +643,6 @@ ul {
 
   .search {
     display: none;
-    padding: 8px 400px 8px 10px;
   }
 
   .col-md-4:nth-child(2) {
