@@ -531,6 +531,10 @@ ul {
   transform: rotate(45deg);
 }
 
+.btn-left, .btn-right, .main-button, .about-img-btn, .details-btn, #myBtn, .vet-icons a {
+  transition: .3s;
+}
+
 /* Mobil Css-------------------------- */
 
 @media (max-width:768px) {
